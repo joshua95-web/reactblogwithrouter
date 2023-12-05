@@ -1,8 +1,9 @@
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <main className="About">
+      <h2>About</h2>
+      <p style={{ marginTop: "1rem" }}> This blog is made with Reactjs</p>
+    </main>
   );
 };
 export default About;
